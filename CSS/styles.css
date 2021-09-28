@@ -1,0 +1,23 @@
+
+#divInicio{
+    text-align: center;
+    
+
+}
+#registro{
+    position: relative;
+    left: 100px;
+}
+
+#carrusel{
+    position: relative;
+    top: 10px;
+}
+.texto{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#acerca{
+    height: 300px;
+}
