@@ -9,14 +9,11 @@ include_once '../model/usuarios.php';
 
 $modif = usuarios::editar($idusuario,$_usuario, $_correo);
 
-if ($modif){
+
     header("location: ../index.php?menu=usuarios");
-    echo "Datos guardados";
+    
 
-} else{
-echo 'error';
 
-}
 }
 
 ?>
